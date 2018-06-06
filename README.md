@@ -2,7 +2,8 @@
 Use Quartz, You can configure it any way you want.
 
 # Config
-public List<IooinPlan> Get
+
+        public List<IooinPlan> Get
         {
             get
             {
@@ -10,7 +11,7 @@ public List<IooinPlan> Get
                 List<IooinPlan> plans = new List<IooinPlan>();
                 plans.Add(new IooinPlan()
                 {
-                    DllPath =   @"C:\Users\Administrator\Source\Repos\IooinQuartz.Core\src\IooinQuartz.Demo\bin\Debug\netcoreapp2.0\IooinQuartz.Demo.dll",
+                    DllPath =   "dllpath",
                     StartTime = DateTime.Now,
                     EndTime = DateTime.Now.AddDays(1),
                     GroupName = "DemoGroup",
@@ -22,7 +23,7 @@ public List<IooinPlan> Get
 
                 plans.Add(new IooinPlan()
                 {
-                    DllPath = @"C:\Users\Administrator\Source\Repos\IooinQuartz.Core\src\IooinQuartz.Calc\bin\Debug\netcoreapp2.0\IooinQuartz.Calc.dll",
+                    DllPath = "dllpath",
                     StartTime = DateTime.Now,
                     EndTime = DateTime.Now.AddDays(1),
                     GroupName = "DemoGroup",
